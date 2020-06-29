@@ -3,16 +3,19 @@
 <head>
 	<meta charset="utf-8">
 	<title> Sedona hotel </title>
+	<link href="https://fonts.google.com/specimen/PT+Sans?query=pt+sa:400, 700&amp;subset=latin,cyrilic" rel="stylesheet">
+	<link href="css/normalize.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
 	<header>
-		<nav>
+		<nav class="main-navigation">
 			<a>
-				<img src="img/index-logo.svg" width="368" height="200"
+				<img src="img/logo.png" width="140" height="72"
 				alt = "Logo Sedona">
 			</a>
-			<ul>
+			<ul class="site-navigation">
 				<li><a href="info.html">Информация</a></li>
 				<li><a href="photovideo.html">Фото и видео</a></li>
 				<li><a href="map.html">Карта штата</a></li>
@@ -28,7 +31,11 @@
 		<section>
 			<h2> About Sedona </h2>
 			<figure>
-			<img src="img/Sedona.view.svg" width="368" height="200"
+			<img src="img/welcome.png" width="459" height="353"
+				alt = "About Sedona">
+			<img src="img/background.jpg" width="1200" height="800"
+				alt = "About Sedona">	
+				<img src="img/polygon.png" width="1202" height="59"
 				alt = "About Sedona">
 			</figure>
 			<p>
@@ -42,51 +49,61 @@
 			<p>
 				Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!
 			</p>
-			<ul>
-				<li>
+			<ul class="feature-list">
+				<li class="feature-item-light">
 					<h3> Настоящий городок </h3>
 					<p>
 						- №1 - <br>
+					</p>
+					<p>
 						Седона - не аттракцион для туристов, <br>
 						там течет своя жизнь
 					</p>
-					<img src="img/first.reason.svg" width="368" height="200"
+ 				<img class="feature-photo" src="img/reason1.jpg" width="800" height="401"
 				alt = "First reason Sedona">
 				</li>
-				<li>
+				<li class="feature-item-light">
 					<h3> Там есть <br>
 					мост дьявола </h3>
 					<p>
-						- №2 - <br>
+						- №2 - 
+					</p>
+					<p>
 						Да, по нему можно пройти! Если конечно <br>
 						вы осмелитесь
 					</p>
-					<img src="img/second.reason.svg" width="368" height="200"
+					<img src="img/reason2.jpg" width="800" height="401"
 				alt = "Second reason Sedona">
 				</li>
-				<li>
+				<li class="feature-item-dark">
 					<h3> Небольшая <br>
 					площадь </h3>
 					<p>
-						- №3 - <br>
+						- №3 - 
+					</p>
+					<p>
 						Все достопримечательности <br>
 						находятся очень близко
 					</p>
 				</li>
-				<li>
+				<li class="feature-item-dark">
 					<h3> Красивая <br>
 					дорога </h3>
 					<p>
-						- №4 - <br>
+						- №4 - 
+					</p>
+					<p>
 						Ехать в Седону из Лас-Вегаса совсем <br>
 						нескучно!
 					</p>
 				</li>
-				<li>
+				<li class="feature-item-dark">
 					<h3> Мало <br>
 					туристов </h3>
 					<p>
 						- №5 - <br>
+					</p>
+					<p>
 						Большинство едет в Гранд Каньон <br>
 						и толпится там
 					</p>
@@ -95,10 +112,10 @@
 		</section>
 
 		<div>
-			<ul>
+			<ul class="features-img">
 				<li>
 					<figure>
-						<img src="img/accommodation.svg" width="150" height="150"
+						<img src="img/accommodation.png" width="75" height="72"
 				alt = "Accommodation">
 					</figure>
 					<h3> Жильё </h3>
@@ -109,7 +126,7 @@
 				</li>
 				<li>
 					<figure>
-						<img src="img/food.svg" width="150" height="150"
+						<img src="img/food.png" width="74" height="70"
 				alt = "Food">
 					</figure>
 					<h3> Еда </h3>
@@ -120,7 +137,7 @@
 				</li>
 					<li>
 					<figure>
-						<img src="img/souvenir.svg" width="150" height="150"
+						<img src="img/souvenir.png" width="64" height="76"
 				alt = "Souvenir">
 					</figure>
 					<h3> Сувениры </h3>
@@ -134,15 +151,37 @@
 
 		<section>
 			<h2> Заинтересовались? </h2>
-			<figure>
-						<img src="img/map.svg" width="150" height="150"
-				alt = "Map">
-					</figure>
+			
 					<p>
 						Укажите предполагаемые даты поездки, <br>
 						и мы покажем вам лучшие предложения гостиниц в Седоне
 					</p>
-					<!--Здесь будет форма-->
+					<p>
+						Поиск гостиницы в Седоне
+					</p>
+					<form action="https:/echo.htmlacademy.ru" method ="post">
+						<p>
+							<label for="arrival-date">Дата заезда</label>
+							<input id="arrival-date" type="date" name="date" value="24 апреля 2017">
+						</p>
+						<p>
+							<label for="depart-date">Дата выезда</label>
+							<input id="depart-date" type="date" name="date" value="25 апреля 2017">
+						</p>
+						<p>
+							<label for="adults">Взрослые</label>
+							<input id="adults" type="number" name="num" value="2">
+						</p>
+						<p>
+							<label for="children">Дети</label>
+							<input id="children" type="number" name="num" value="0">
+						</p>
+						<button type="submit">Найти</button>
+					</form>
+					<figure>
+						<img src="img/map.png" width="1718" height="748"
+				alt = "Map">
+					</figure>
 		</section>
 	</main>
 
@@ -153,13 +192,30 @@
 		</p>
 		<div>
 			<ul>
-				<li> <a href="#">Твиттер</a></li>
-				<li> <a href="#">Фейсбук</a></li>
-				<li> <a href="#">Ютуб</a></li>
+				<li> 
+					<a href="#"Twitter>
+					 <img src="img/twitter.png" width="17" height="15"
+				alt = "Twitter">
+			</a>
+		</li>
+				<li>
+				 <a href="#"Facebook>
+				  <img src="img/facebook.png" width="12" height="22"
+				  alt = "Facebook">
+				</a>
+			</li>
+				<li> <a href="#"Youtube>
+				  <img src="img/youtube.png" width="20" height="16"
+				  alt = "Youtube">
+				</a>
+			</li>
 			</ul>
 		</div>
 		<p>
-			website by <a href="#">HTML Academy</a>
+			website by <a href="#"HTML Academy>
+				<img src="img/academy.png" width="115" height="41"
+				alt = "HTML Academy">
+			</a>
 		</p>
 	</footer>
 
