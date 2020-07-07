@@ -15,22 +15,22 @@ a {
 	text-decoration: none;
 } 
 
-.main-navigation {
+.nav {
 	line-height: 26px;
 	font-weight: 700;
 	background-color:#ffffff; 
 }
 
-.site-navigation {
+.nav_link {
 	list-style: none;
 }
 
-.site-navigation a {
+.nav_link a {
 	color:#000000;
 }
 
-.site-navigation a:hover,
-.site-navigation a:focus{
+.nav_link a:hover,
+.nav_link a:focus{
 	color: #81b3d2;
 	background-color: grey; 
 }
