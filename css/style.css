@@ -41,18 +41,23 @@ a {
 }
 
 
-.feature-item-white {
-	text-align: center;
+.feature-item-white1 {
 	color: white;
-	background: #81b3d2;
+	background-color: #81b3d2;
 	padding: 50px 50px 65px 50px;
+	margin-right: 850px;
 }
+.feature-item-white2 {
+	color: white;
+	background-color: #81b3d2;
+	padding: 50px 50px 65px 50px;
+	margin-left: 850px;
+} 
 
 
 .feature-item-black {
-	text-align: center;
 	color: black;
-	background: #eeeeee;
+	background-color: #eeeeee;
 	padding: 50px 50px 65px 50px;
 }
 
@@ -64,13 +69,15 @@ a {
 
 .feature-photo1 {
 	float: right;
+	height: 255px;
 }
-
+.feature-photo2 {
+	float: left;
+}
 .features-img {
 	list-style: none;
+	background-color: white;
 }
-
-
 
 
 
