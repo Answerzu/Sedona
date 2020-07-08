@@ -35,6 +35,30 @@ a {
 	background-color: white; 
 }
 
+.visually-hidden {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   padding: 0;
+   overflow: hidden;
+   border: 0;
+   clip: rect(0 0 0 0)
+}
+
+.slogan {
+	text-align: center;
+	font-size: 21px;
+	line-height: 26px;
+	background-color: white;
+	font-weight: 700;
+}
+.features {
+	line-height: 26px;
+	text-align: center;
+	background-color: white;
+}
+
 .feature-list {
 	list-style: none;
 	text-align: center;
@@ -79,5 +103,124 @@ a {
 	background-color: white;
 }
 
+.text-all {
+	text-align: center;
+	background-color: white;
+}
+.text-all h2 {
+	font-size: 30px;
+	line-height: 36px;
+	font-weight: 700;
+}
+
+.text {
+	line-height: 24px;
+}
+
+.search h3 {
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: 700;
+	background-color: #766357;
+	color:white;
+}
+
+.search h3:hover,
+.search h3:focus {
+	background-color: #604e43
+}
+
+.search p {
+	line-height: 26px;
+	font-weight: 700;
+}
+
+#arrival-date {
+	font: inherit;
+	background-color: #f2f2f2;
+	border:none;
+}
+
+#arrival-date:hover {
+	background-color: #ebebeb;
+}
+
+#arrival-date:focus {
+	background-color: white;
+	border: 2px solid #e5e5e5; /*пока не работает */
+}
 
 
+#depart-date {
+	font: inherit;
+	background-color: #f2f2f2;
+	border:none;
+}
+
+#depart-date:hover {
+	background-color: #ebebeb;
+}
+
+#depart-date:focus {
+	background-color: white;
+	border-color: #e5e5e5; /*пока не работает */
+}
+
+#adults {
+	font: inherit;
+	background-color: #f2f2f2;
+	border:none;
+}
+
+#children {
+	font: inherit;
+	background-color: #f2f2f2;
+	border:none;
+} 
+
+.button {
+	font: inherit;
+
+	color: white;
+	font-weight: 700;
+	vertical-align: middle;
+
+	background-color: #81b3d2;
+	border: none;
+}
+
+.button:hover,
+.button:focus {
+	background-color: #669ec0;
+}
+
+footer {
+	background-color: white;
+}
+
+.contacts {
+	color: black;
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: 700;
+}
+
+.contacts a {
+	color: black;
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: 700;
+}
+
+.social {
+	background-color: #81b3d2;
+	text-align: center;
+}
+
+.list-social {
+	list-style: none;
+}
+
+.academy {
+	line-height: 26px;
+}
