@@ -135,48 +135,20 @@ a {
 	font-weight: 700;
 }
 
-#arrival-date {
+.search input {
 	font: inherit;
 	background-color: #f2f2f2;
 	border:none;
 }
 
-#arrival-date:hover {
+.search input:hover {
 	background-color: #ebebeb;
 }
 
-#arrival-date:focus {
-	background-color: white;
-	border: 2px solid #e5e5e5; /*пока не работает */
-}
-
-
-#depart-date {
-	font: inherit;
-	background-color: #f2f2f2;
-	border:none;
-}
-
-#depart-date:hover {
-	background-color: #ebebeb;
-}
-
-#depart-date:focus {
+.search input:focus {
 	background-color: white;
 	border-color: #e5e5e5; /*пока не работает */
 }
-
-#adults {
-	font: inherit;
-	background-color: #f2f2f2;
-	border:none;
-}
-
-#children {
-	font: inherit;
-	background-color: #f2f2f2;
-	border:none;
-} 
 
 .button {
 	font: inherit;
