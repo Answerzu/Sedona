@@ -19,10 +19,13 @@ a {
 	line-height: 26px;
 	font-weight: 700;
 	background-color:#ffffff; 
+
 }
 
 .nav_link {
 	list-style: none;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 .nav_link a {
@@ -44,6 +47,19 @@ a {
    overflow: hidden;
    border: 0;
    clip: rect(0 0 0 0)
+}
+
+.logo {
+	margin-top: -20px;
+	align-items: center;
+	background-image: url("img/background.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.logo figure {
+	margin: 0 auto;
+	align-items: center;
 }
 
 .slogan {
@@ -197,4 +213,11 @@ footer {
 
 .academy {
 	line-height: 26px;
+}
+
+/*flex*/
+
+.nav_link {
+	display: flex;
+	justify-content: space-around;
 }
