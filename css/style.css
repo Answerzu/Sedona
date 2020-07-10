@@ -104,14 +104,21 @@ a {
 	background-color: white;
 }
 
+
+.first_reason {
+	width: 1200px ;
+}
+
 /*flex*/
 
 .first_reason {
 	display: flex;
+
 }
 
 .feature-list {
 	margin-top: 55px;
+	padding-left: 0;
 	list-style: none;
 	text-align: center;
 }
@@ -120,7 +127,9 @@ a {
 .feature-item-white1 {
 	color: white;
 	background-color: #81b3d2;
-	padding: 50px 50px 65px 50px;
+	width: 400px;
+	height: 255px
+	margin-right: 0; 
 }
 .feature-item-white2 {
 	color: white;
@@ -142,10 +151,7 @@ a {
 	font-weight: 700;
 }
 
-.feature-photo1 {
-	
-	height: 255px;
-}
+
 .feature-photo2 {
 	float: left;
 }
