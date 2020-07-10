@@ -16,9 +16,11 @@ a {
 } 
 
 .nav {
+	height: 56px;
 	line-height: 26px;
 	font-weight: 700;
 	background-color:#ffffff; 
+
 
 }
 
@@ -26,6 +28,20 @@ a {
 	list-style: none;
 	margin-top: 0;
 	margin-bottom: 0;
+	padding-left: 0;
+}
+
+/*flex*/
+
+.nav_link {
+	display: flex;
+	justify-content: space-around;
+}
+
+
+.nav_link li {
+	padding-top: 14px;
+
 }
 
 .nav_link a {
@@ -49,33 +65,53 @@ a {
    clip: rect(0 0 0 0)
 }
 
-.logo {
-	margin-top: -20px;
-	align-items: center;
+.background {
+	height: 830px;
 	background-image: url("img/background.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
+	 -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100% ; /* Современные браузеры */
 }
 
-.logo figure {
-	margin: 0 auto;
-	align-items: center;
+
+.logo img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 96px;
 }
 
+.background_reasons {
+	background-color: white;
+
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
 .slogan {
+	margin: 0;
 	text-align: center;
 	font-size: 21px;
 	line-height: 26px;
-	background-color: white;
 	font-weight: 700;
 }
 .features {
+	margin: 0;
 	line-height: 26px;
 	text-align: center;
 	background-color: white;
 }
 
+/*flex*/
+
+.first_reason {
+	display: flex;
+}
+
 .feature-list {
+	margin-top: 55px;
 	list-style: none;
 	text-align: center;
 }
@@ -85,7 +121,6 @@ a {
 	color: white;
 	background-color: #81b3d2;
 	padding: 50px 50px 65px 50px;
-	margin-right: 850px;
 }
 .feature-item-white2 {
 	color: white;
@@ -108,7 +143,7 @@ a {
 }
 
 .feature-photo1 {
-	float: right;
+	
 	height: 255px;
 }
 .feature-photo2 {
@@ -215,9 +250,3 @@ footer {
 	line-height: 26px;
 }
 
-/*flex*/
-
-.nav_link {
-	display: flex;
-	justify-content: space-around;
-}
