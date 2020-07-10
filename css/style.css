@@ -1,6 +1,7 @@
 body {
-	margin: 0 40px;
-	padding: 0;
+	width: 1200px;
+    margin: 0 auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 
 	font-family: "PT Sans", "Arial", sans-serif;
 	font-size: 14px;
@@ -66,33 +67,27 @@ a {
 }
 
 .background {
-	height: 830px;
+	width: 1201px;
+	height: 508px;
 	background-image: url("img/background.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
-	 -moz-background-size: 100%; /* Firefox 3.6+ */
-    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
-    -o-background-size: 100%; /* Opera 9.6+ */
-    background-size: 100% ; /* Современные браузеры */
+    
 }
 
-
-.logo img {
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 96px;
-}
 
 .background_reasons {
-	background-color: white;
-
+	display: block;
+	height: 152px;
 	padding-top: 60px;
-	padding-bottom: 60px;
+	text-align: center;
+	background-color: white;
+	border-top: 0;
+	
 }
 .slogan {
 	margin: 0;
-	text-align: center;
+	padding-bottom: 30px;
 	font-size: 21px;
 	line-height: 26px;
 	font-weight: 700;
@@ -100,43 +95,53 @@ a {
 .features {
 	margin: 0;
 	line-height: 26px;
-	text-align: center;
 	background-color: white;
 }
 
 
-.first_reason {
-	width: 1200px ;
-}
-
-/*flex*/
-
-.first_reason {
-	display: flex;
-
-}
-
 .feature-list {
-	margin-top: 55px;
+	margin: 0;
 	padding-left: 0;
 	list-style: none;
 	text-align: center;
 }
 
+/*flex photo 1*/
+
+.first_reason {
+	display: flex;
+}
 
 .feature-item-white1 {
 	color: white;
 	background-color: #81b3d2;
 	width: 400px;
-	height: 255px
-	margin-right: 0; 
+	padding-top: 50px;
+	
+
 }
+
+.feature-photo1 {
+	width: 100%;
+
+}
+
+/*flex photo 2*/
+
+.second_reason {
+	display: flex;
+}
+
 .feature-item-white2 {
 	color: white;
 	background-color: #81b3d2;
-	padding: 50px 50px 65px 50px;
-	margin-left: 850px;
+	width: 400px;
+	padding-top: 50px;
 } 
+
+.feature-photo2 {
+	width: 100%;
+}
 
 
 .feature-item-black {
@@ -151,13 +156,21 @@ a {
 	font-weight: 700;
 }
 
-
-.feature-photo2 {
-	float: left;
-}
 .features-img {
 	list-style: none;
 	background-color: white;
+}
+
+
+/*flex */
+.features-img {
+	display: flex;
+	justify-content: space-around;
+}
+
+.reason_black {
+	display: flex;
+	justify-content: space-around;
 }
 
 .text-all {
