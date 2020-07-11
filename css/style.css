@@ -117,6 +117,7 @@ a {
 	background-color: #81b3d2;
 	width: 400px;
 	padding-top: 50px;
+	padding-bottom: 30px;
 	
 
 }
@@ -136,7 +137,9 @@ a {
 	color: white;
 	background-color: #81b3d2;
 	width: 400px;
-	padding-top: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
 } 
 
 .feature-photo2 {
@@ -166,16 +169,21 @@ a {
 .features-img {
 	display: flex;
 	justify-content: space-around;
+
 }
 
 .reason_black {
 	display: flex;
 	justify-content: space-around;
+	background-color: #eeeeee;
 }
 
 .text-all {
 	text-align: center;
 	background-color: white;
+	height: 205px;
+	padding-top: 25px;
+	
 }
 .text-all h2 {
 	font-size: 30px;
@@ -186,36 +194,47 @@ a {
 .text {
 	line-height: 24px;
 }
+.search {
+	text-align: center;
+	background-color: white;
 
-.search h3 {
+}
+
+.search button {
+	font: inherit;
+	text-transform: uppercase;
+	text-align: center;
+	height: 86px;
+	width: 570px;
 	font-size: 21px;
 	line-height: 26px;
 	font-weight: 700;
 	background-color: #766357;
 	color:white;
+	border: none;
 }
 
-.search h3:hover,
-.search h3:focus {
+.search button:hover,
+.search button:focus {
 	background-color: #604e43
 }
 
-.search p {
+.form-search p {
 	line-height: 26px;
 	font-weight: 700;
 }
 
-.search input {
+.form-search input {
 	font: inherit;
 	background-color: #f2f2f2;
 	border:none;
 }
 
-.search input:hover {
+.form-search input:hover {
 	background-color: #ebebeb;
 }
 
-.search input:focus {
+.form-search input:focus {
 	background-color: white;
 	outline:none;
 	border: 2px solid #e5e5e5; 
@@ -223,6 +242,7 @@ a {
 
 .button {
 	font: inherit;
+	text-transform: uppercase;
 
 	color: white;
 	font-weight: 700;
@@ -267,5 +287,25 @@ footer {
 
 .academy {
 	line-height: 26px;
+}
+
+
+/*	flex footer */
+
+footer {
+	display: flex;
+	justify-content: space-around;
+
+}
+
+
+.contacts {
+	display: flex;
+	flex-direction: column;
+}
+
+
+.social {
+	display: flex;
 }
 
