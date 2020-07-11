@@ -37,13 +37,15 @@ a {
 .nav_link {
 	display: flex;
 	justify-content: space-around;
+
 }
 
 
 .nav_link li {
-	padding-top: 14px;
+	padding-top: 14px; 
 
 }
+
 
 .nav_link a {
 	color:#000000;
@@ -269,6 +271,7 @@ footer {
 	font-size: 21px;
 	line-height: 26px;
 	font-weight: 700;
+	align-self: center;
 }
 
 .contacts a {
@@ -276,6 +279,7 @@ footer {
 	font-size: 21px;
 	line-height: 26px;
 	font-weight: 700;
+
 }
 
 
@@ -283,24 +287,44 @@ footer {
 	list-style: none;
 	padding-left: 0;
 	width: 150px;
+	align-self: center;
 
 }
 
-.list-social a {
+.twitter,
+.youtube {
+	padding-top: 15px;
 	
+} 
+
+.facebook {
+	padding-top: 12px;
 }
+
+
 
 .list-social li {
 	background-color: #81b3d2;
 	text-align: center;
 	width: 46px;
 	height: 46px;
+
 	
 
 }
 
 .academy {
 	line-height: 26px;
+	align-self: center;
+	width: 200px;
+}
+
+.academy p {
+	margin-right: 7px;
+}
+
+.academy a {
+	margin-top: 7px;
 }
 
 
@@ -309,6 +333,7 @@ footer {
 footer {
 	display: flex;
 	justify-content: space-around;
+	
 
 }
 
@@ -324,13 +349,9 @@ footer {
 
 }
 
-footer .contacts,
-footer .list-social,
-footer .academy {
-	margin-top: 0;
-	margin-bottom: 0;
-	padding-top: 40px;
+.academy {
+	display: flex;
+	justify-content: space-around;
 }
-
 
 
