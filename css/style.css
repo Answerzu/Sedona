@@ -260,6 +260,8 @@ a {
 
 footer {
 	background-color: white;
+	height: 120px;
+
 }
 
 .contacts {
@@ -276,13 +278,25 @@ footer {
 	font-weight: 700;
 }
 
-.social {
-	background-color: #81b3d2;
-	text-align: center;
-}
 
 .list-social {
 	list-style: none;
+	padding-left: 0;
+	width: 150px;
+
+}
+
+.list-social a {
+	
+}
+
+.list-social li {
+	background-color: #81b3d2;
+	text-align: center;
+	width: 46px;
+	height: 46px;
+	
+
 }
 
 .academy {
@@ -304,8 +318,19 @@ footer {
 	flex-direction: column;
 }
 
-
-.social {
+.list-social {
 	display: flex;
+	justify-content: space-around;
+
 }
+
+footer .contacts,
+footer .list-social,
+footer .academy {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 40px;
+}
+
+
 
