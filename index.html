@@ -3,7 +3,6 @@
 <head>
 	<meta charset="utf-8">
 	<title> Sedona hotel </title>
-	<!-- <link href="https://fonts.google.com/specimen/PT+Sans?query=pt+sa:400, 700&amp;subset=latin,cyrilic" rel="stylesheet"> -->
 	<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -16,9 +15,8 @@
 			<ul class="nav_link">
 				<li ><a href="info.html">Информация</a></li>
 				<li><a href="photovideo.html">Фото и видео</a></li>
-		    <a> <img src="img/logo.png" width="140" height="72"
-				alt = "Logo Sedona">
-			</a> 
+		    	<li class="img-logo"> <img src="img/logo.png" width="140" height="72" alt = "Logo Sedona"> 
+		    	</li>
 				<li><a href="map.html">Карта штата</a></li>
 				<li><a href="hotels.html">Гостиницы</a></li>
 			</ul>
@@ -36,7 +34,7 @@
 				 заслуживающий большего!
 			</p>
 			<h2 class="visually-hidden"> Причины</h2>
-			<p class="features">
+			<p class="features-text">
 				Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!
 			</p>
 		</div>
@@ -44,8 +42,9 @@
 		
 			<ul class="feature-list"> 
 				<div class="first_reason">
-				<li class="feature-item-white1">					
-					<h3> Настоящий городок </h3>
+				<li class="feature-item-white1">	
+				<div>			
+					<h3> Настоящий <br> городок </h3>
 					<p>
 						- №1 - <br>
 					</p>
@@ -53,23 +52,26 @@
 						Седона - не аттракцион для туристов, <br>
 						там течет своя жизнь
 					</p>
+				</div>	
 				</li>
 						
- 					<img class="feature-photo1" src="img/reason1.jpg" width="800" height="255"
+ 					<img class="feature-photo1" src="img/reason1.jpg" width="800" height="256"
 					alt = "First reason Sedona">
 		</div>
-		<div>
+		<div class="features">
 			<ul class="features-img">
 				<li>
 					<figure>
 						<img src="img/accommodation.png" width="75" height="72"
 				alt = "Accommodation">
 					</figure>
+					<div class="motel">
 					<h3> Жильё </h3>
 					<p>
 						Рекомендуем пожить в настоящем <br>
 						мотеле, всё как в кино!
 					</p>
+					</div>
 				</li>
 				<li>
 					<figure>
@@ -96,9 +98,10 @@
 			</ul>
 		</div>	
 			<div class="second_reason">
-				<img class="feature-photo2" src="img/reason2.jpg" width="800" height="255"
+				<img class="feature-photo2" src="img/reason2.jpg" width="800" height="256"
 				alt = "Second reason Sedona">
-				<li class="feature-item-white2">				
+				<li class="feature-item-white2">
+					<div>			
 					<h3> Там есть <br>
 					мост дьявола </h3>
 					<p>
@@ -108,10 +111,12 @@
 						Да, по нему можно пройти! Если конечно <br>
 						вы осмелитесь
 					</p>
+					</div>	
 				</li> 
 			</div>
 			<div class="reason_black">	
 				<li class="feature-item-black">
+					<div class="dark">
 					<h3> Небольшая <br>
 					площадь </h3>
 					<p>
@@ -121,8 +126,10 @@
 						Все достопримечательности <br>
 						находятся очень близко
 					</p>
+					</div>
 				</li>
 				<li class="feature-item-black">
+					<div class="dark">
 					<h3> Красивая <br>
 					дорога </h3>
 					<p>
@@ -132,8 +139,10 @@
 						Ехать в Седону из Лас-Вегаса совсем <br>
 						нескучно!
 					</p>
+					</div>
 				</li>
 				<li class="feature-item-black">
+					<div class="dark">
 					<h3> Мало <br>
 					туристов </h3>
 					<p>
@@ -143,6 +152,7 @@
 						Большинство едет в Гранд Каньон <br>
 						и толпится там
 					</p>
+					</div>
 				</li>
 				</div>
 			</ul>
@@ -181,43 +191,31 @@
 			<figure>
 				<img src="img/map.png" width=100% height=100%
 				alt = "Map">
-			</figure> 
-		
+			</figure> 	
 	</main>
-
 	<footer>
-		<p class="contacts">
+		<section class="contacts">
 			<a href="#">#VISITSEDONA</a>
-			ТЕЛ: +7 (495) 666-02-66
-		</p>
-		
-			<ul class="list-social">
-				<li> 
-					<a  href="#"Twitter>
-					 <img class="twitter" src="img/twitter.png" width="17" height="15"
-				alt = "Twitter">
-			</a>
-		</li>
-				<li>
-				 <a  href="#"Facebook>
-				  <img class="facebook" src="img/facebook.png" width="12" height="22"
-				  alt = "Facebook">
-				</a>
-			</li>
-				<li> <a  href="#"Youtube>
-				  <img class="youtube" src="img/youtube.png" width="20" height="16"
-				  alt = "Youtube">
-				</a>
-			</li>
-			</ul>
-		<div class="academy">
-		<p> website by </p>
-		 <a href="#"HTML Academy> 
+	    	<span>ТЕЛ: +7 (495) 666-02-66</span>
+		</section>
+		<section class="social">
+			<a  href="#"Twitter>
+			    <img class="twitter" src="img/twitter.png" width="17" height="15"
+				alt = "Twitter"> </a>
+			<a  href="#"Facebook>
+				<img class="facebook" src="img/facebook.png" width="12" height="22"
+				alt = "Facebook"> </a>
+			<a  href="#"Youtube>
+				<img class="youtube" src="img/youtube.png" width="20" height="16"
+				alt = "Youtube"> </a>
+		</section>
+		<section class="academy">
+			<span> website by </span>
+			<a href="#"HTML Academy> 
 				<img src="img/academy.png" width="115" height="41"
 				alt = "HTML Academy">
-		</a>
-		</div>
+			</a>
+		</section>
 	</footer>
-
 </body>
 </html>
