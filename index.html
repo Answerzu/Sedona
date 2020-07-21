@@ -170,21 +170,32 @@
 		<div class="search">
 			<button > Поиск гостиницы в Седоне</button>
 		</div>	
-			<form class="form-search" action="https:/echo.htmlacademy.ru" method ="post">
-
+			<div class="form">
+				<form class="form-search" action="https:/echo.htmlacademy.ru" method ="post">
+				
 				
 					<div class="arrival">
 						<label for="arrival-date">Дата заезда:</label>
+						<div class="date">
 						<input id="arrival-date" type="text" name="date" value="24 апреля 2017">
+						<button class="calendar" type="button">
+							<img src="img/calendar.png" width="21" height="22" alt="календарь">
+						</button>
+						</div>
 					</div>
 					<div class="departure">
 						<label for="departure-date">Дата выезда:</label>
+						<div class="date2">
 						<input id="departure-date" type="text" name="date" value="25 апреля 2017">
+						<button class="calendar" type="button">
+							<img src="img/calendar.png" width="21" height="22" alt="календарь">
+						</button>
+						</div>
 					</div>
 				<div class="people">
 					<div class="adults">
 						<label for="adults">Взрослые:</label>
-						
+							<div class="numbers">
 							<button class="minus" type="button">
 									<img src="img/minus.png" width="12" height="3" alt="меньше">
 							</button>
@@ -192,22 +203,26 @@
 							<button class="plus" type="button">
 									<img src="img/plus.png" width="11" height="11" alt="больше">
 							</button>
-				
+							</div>
 					</div>
 					<div class="children">
 						<label for="children">Дети:</label>
-						<button class="minus" type="button">
+							<div class="numbers2">
+							<button class="minus" type="button">
 									<img src="img/minus.png" width="12" height="3" alt="меньше">
 							</button>
 							<input id="children" type="number" name="num" value="0">
 							<button class="plus" type="button">
 									<img src="img/plus.png" width="11" height="11" alt="больше">
 							</button>
+							</div>
 					</div>
 				</div>
+				
 				<button class="button" type="submit">Найти</button>
+				
 			</form>
-			
+			</div>
 			<figure>
 				<img src="img/map.png" width=100% height=100%
 				alt = "Map">

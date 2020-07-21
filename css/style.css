@@ -276,15 +276,22 @@ margin-top: 21px;
 }
 
 form {
-	background-color: white;
-	height: 395px;	
-	width: 568px;
-	position: relative;
+	
+	
+
+	
 }
 
+.form {
+	padding: 55px 60px 51px 52px;
+	width: 459px;
+	margin:0 auto;
+	background-color: white;
+}
+
+
 form div {
-	padding-right: 38px;
-	padding-left: 52px;
+	
 
 	
 	
@@ -292,43 +299,94 @@ form div {
 }
 
 .arrival {
-padding-top: 55px;
-margin-bottom: 30px;
-}
-
-.departure {
+	display: flex;
+	align-items: center;
+	padding: 0;
 	margin-bottom: 30px;
 }
 
+.departure {
+	display: flex;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+.date {
+	display: flex;
+	align-items: center;
+	width: 346px;
+ 	padding: 0;
+ 	margin-left: 25px;
+
+}
+
+.date2 {
+	display: flex;
+	align-items: center;
+	width: 346px;
+ 	padding: 0;
+ 	margin-left: 22px;
+
+}
+
+.date button {
+	height: 38px;
+	border: none;
+	padding: 0;
+	background-color: #f2f2f2; 
+
+}
+
+.date2 button {
+	height: 38px;
+	border: none;
+	padding: 0;
+	background-color: #f2f2f2; 
+
+}
+
+
+.calendar img {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
 form input {
-	margin-left: 20px ;
+
 	height: 38px;
 
 
 }
 
 .arrival input {
-	width: 346px;
+	padding: 0;
+	padding-left: 13px;
+	flex-grow: 1;
 
 } 
 
 .departure input {
-	width: 346px;
-	margin-left: 16px;
+	padding: 0;
+	padding-left: 13px;
+	flex-grow: 1;
 }
 
 .people {
 	display: flex;
+	align-items: center;
+
 }
 
 .adults input,
 .children input {
 	width: 38px;
+	text-align: center;
 	
 }
 .adults {
 	padding: 0;
-	
+	display: flex;
+	align-items: center;
 	margin: 0;
 }
 .adults input {
@@ -359,20 +417,44 @@ form input {
 
 
 .minus {
-	margin-left: 20px;
+	
+	width: 38px;
+	padding: 0;
+	vertical-align: middle;
+}
+
+.minus img {
+	padding-bottom: 3px;
 }
 
 .plus {
 	margin-left: 0;
+	width: 38px;
+	padding: 0;
+}
+
+.numbers {
+	display: flex;
+	padding: 0;
+	width: 114px;
+	margin-left: 39px;
+
+
+}
+
+.numbers2 {
+	display: flex;
+	padding: 0;
+	width: 114px;
+	margin-left: 28px;
 }
 
 .children {
 	padding: 0;
+	display: flex;
+	align-items: center;
 	margin: 0;
-	margin-left: 51px;
-	
-	
-	
+	margin-left: 55px;
 }
 .children button {
 	
@@ -383,14 +465,19 @@ form input {
 }
 
 .button {
-	width: 459px;
+	
 	height: 58px;
-	margin-right: 58px;
-	margin-left: 52px;
-	margin-top: 55px;
+	/*margin-right: 58px;
+	margin-left: 52px;*/
+	margin-top: 55px; 
 	padding: 0;
+	width: 459px;
 
 }
+/*
+.button-search {
+	margin-top: 55px;
+} */
 
 .form-search div {
 	line-height: 26px;
@@ -424,6 +511,9 @@ form input {
 
 	background-color: #81b3d2;
 	border: none;
+	margin-right: 0;
+	margin-left: 0;
+	
 }
 
 .button:hover,
@@ -470,7 +560,7 @@ footer {
 
 .social a {
 	background-color: #81b3d2;
-	text-align: center;
+	text-align: center; 
 	width: 46px;
 	height: 46px;
 
