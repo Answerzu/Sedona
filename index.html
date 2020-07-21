@@ -159,11 +159,13 @@
 				</div>
 			</ul>
 		<section class="text-all">
-			<h2> Заинтересовались? </h2>
+			<div>
+			  	<h2> Заинтересовались? </h2>
 				<p class="text">
 					Укажите предполагаемые даты поездки, <br>
 					и мы покажем вам лучшие предложения гостиниц в Седоне
 				</p>
+			</div>
 		</section>
 		<div class="search">
 			<button > Поиск гостиницы в Седоне</button>
@@ -171,19 +173,19 @@
 			<form class="form-search" action="https:/echo.htmlacademy.ru" method ="post">
 
 				
-					<p>
+					<p class="arrival">
 						<label for="arrival-date">Дата заезда:</label>
-						<input id="arrival-date" type="date" name="date" value="24 апреля 2017">
+						<input id="arrival-date" type="text" name="date" value="24 апреля 2017">
 					</p>
-					<p>
-						<label for="depart-date">Дата выезда:</label>
-						<input id="depart-date" type="date" name="date" value="25 апреля 2017">
+					<p class="departure">
+						<label for="departure-date">Дата выезда:</label>
+						<input id="departure-date" type="text" name="date" value="25 апреля 2017">
 					</p>
-					<p>
+					<p class="adults">
 						<label for="adults">Взрослые:</label>
 						<input id="adults" type="number" name="num" value="2">
 					</p>
-					<p>
+					<p class="children">
 						<label for="children">Дети:</label>
 						<input id="children" type="number" name="num" value="0">
 					</p>
