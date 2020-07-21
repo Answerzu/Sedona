@@ -195,7 +195,7 @@ margin-top: 21px;
 .features-img {
 	list-style: none;
 	background-color: white;
-	padding-right: 0;
+	padding-left: 0;
 }
 
 .motel {
@@ -282,7 +282,7 @@ form {
 	position: relative;
 }
 
-form p {
+form div {
 	padding-right: 38px;
 	padding-left: 52px;
 
@@ -317,28 +317,69 @@ form input {
 	margin-left: 16px;
 }
 
+.people {
+	display: flex;
+}
+
 .adults input,
 .children input {
-	width: 114px;
+	width: 38px;
 	
 }
-
-.adults input {
-	margin-left: 36px;
-}
-
 .adults {
+	padding: 0;
 	
+	margin: 0;
+}
+.adults input {
 	
+	margin-left: 0;
+	padding: 0;
+	
+}
+
+.children input {
+	
+	margin-left: 0;
+	padding: 0;
+	
+}
+
+
+
+.adults button {
+	
+	width: 38px;
+	height: 38px;
+	background-color: #f2f2f2; 
+	border:none;
+	
+
+}
+
+
+.minus {
+	margin-left: 20px;
+}
+
+.plus {
+	margin-left: 0;
 }
 
 .children {
 	padding: 0;
+	margin: 0;
 	margin-left: 51px;
-	position: absolute;
-	left: 280px;
-	top: 177px;
 	
+	
+	
+}
+.children button {
+	
+	width: 38px;
+	height: 38px;
+	background-color: #f2f2f2; 
+	border:none;
 }
 
 .button {
@@ -351,7 +392,7 @@ form input {
 
 }
 
-.form-search p {
+.form-search div {
 	line-height: 26px;
 	font-weight: 700;
 }
