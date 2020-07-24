@@ -1,7 +1,7 @@
 body {
 	width: 1200px;
     margin: 0 auto;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 
 	font-family: "PT Sans", "Arial", sans-serif;
 	font-size: 14px;
@@ -34,6 +34,7 @@ body {
 	padding-left: 0;
 	text-align: center;
 	height: 56px;
+
 }
 
 .nav_link li { 
@@ -62,6 +63,7 @@ body {
 .nav_link {
 	display: flex;  
 	align-items: center; 
+	flex-wrap: wrap;
 	
 }
 
@@ -81,6 +83,7 @@ body {
 .background {
 	width: 1199px;
 	height: 508px;
+	background-color: #e4f1f9;
 	background-image: url("img/background.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
@@ -122,6 +125,14 @@ body {
 	padding-left: 0;
 	list-style: none;
 	text-align: center;
+}
+
+.feature-photo1 {
+	background-image: url("img/reason1_back.jpg");
+}
+
+.feature-photo2 {
+	background-image: url("img/reason2_back.jpg");
 }
 
 /*flex photo 1*/
@@ -548,12 +559,18 @@ footer {
     position: absolute;
     margin-top: -120px;
     background-color: rgba(255,255,255,.9);
-    box-shadow: 0 0 black;
+  /*  box-shadow: 0 0 black; */
 
 }
 
 .map {
 	z-index: 2;
+}
+
+.map-background {
+	background-color: #cbdda9;
+	background-image:url("img/map.png");
+
 }
 
 
