@@ -254,6 +254,7 @@ margin-top: 21px;
 	text-align: center;
 	background-color: white;
 
+
 }
 
 .search button {
@@ -268,6 +269,7 @@ margin-top: 21px;
 	background-color: #766357;
 	color:white;
 	border: none;
+	padding: 0;
 }
 
 .search button:hover,
@@ -283,12 +285,22 @@ form {
 }
 
 .form {
-	padding: 55px 60px 51px 52px;
-	width: 459px;
-	margin:0 auto;
+	padding: 55px 57px 51px 53px;
+	width: 460px;
+	
 	background-color: white;
 }
 
+.form { /*position*/
+	position: absolute;
+ 	top: 2163px; 
+
+ 	left: 50%;
+ 	margin-left: -285px;
+ 	display: none;
+
+ 	
+}
 
 form div {
 	
@@ -528,12 +540,25 @@ input::-webkit-outer-spin-button {
 }
 
 
-
 footer {
 	background-color: white;
 	height: 120px;
     align-items: center; 
+    z-index: 1;
+    position: absolute;
+    margin-top: -120px;
+    background-color: rgba(255,255,255,.9);
+    box-shadow: 0 0 black;
 
+}
+
+.map {
+	z-index: 2;
+}
+
+
+footer section {
+	width: 400px;
 }
 
 .contacts {
@@ -541,7 +566,12 @@ footer {
 	font-size: 21px;
 	line-height: 26px;
 	font-weight: 700;
+	text-align: center;
 	
+}
+
+.contacts span {
+	padding-left: 90px;
 }
 
 .contacts a {
@@ -555,7 +585,7 @@ footer {
 
 .social {
 	padding-left: 0;
-	width: 150px;
+	
 }
 
 .social a {
@@ -563,6 +593,7 @@ footer {
 	text-align: center; 
 	width: 46px;
 	height: 46px;
+	margin: 0 3px;
 
 
 }
@@ -581,16 +612,17 @@ footer {
 
 .academy {
 	line-height: 26px;
-	width: 200px;
+
 }
 
 .academy span {
 	margin-right: 7px;
-	padding-top: 12px;
+	padding-top: 15px;
+		
 }
 
 .academy a {
-	margin-top: 7px;
+	margin-top: 7px; 
 }
 
 
@@ -611,13 +643,14 @@ footer {
 
 .social  {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 
 }
 
 .academy {
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
+	vertical-align: middle;
 }
 
 
