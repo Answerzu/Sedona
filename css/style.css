@@ -288,11 +288,9 @@ margin-top: 21px;
 	background-color: #604e43
 }
 
-form {
-	
-	
 
-	
+.form-container{
+	position: relative;
 }
 
 .form {
@@ -304,7 +302,7 @@ form {
 
 .form { /*position*/
 	position: absolute;
- 	top: 2163px; 
+ 	top: 0px; 
 
  	left: 50%;
  	margin-left: -285px;
