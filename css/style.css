@@ -675,3 +675,8 @@ footer {
 }
 
 
+/*js*/
+
+.form-show {
+	display: block;
+}
