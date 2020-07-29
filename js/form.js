@@ -4,7 +4,11 @@ var date1 = form.querySelector("[name=date1]");
 var date2 = form.querySelector("[name=date2]");
 var adults = form.querySelector("[name=num1]");
 var children = form.querySelector("[name=num2]");
-var plus = document.querySelector(".plus");
+var plus1 = document.querySelector(".plus1");
+var minus1 = document.querySelector(".minus1");
+var plus2 = document.querySelector(".plus2");
+var minus2 = document.querySelector(".minus2");
+
 
 button.addEventListener("click", function (evt) { /* добавляем возможность показать/скрыть форму */
 	evt.preventDefault();
@@ -34,11 +38,25 @@ window.addEventListener("keydown", function (evt) { /*добавляем зак�
 });
 
 
-plus.addEventListener("click", function (evt) {
+plus1.addEventListener("click", function (evt) {
 	evt.preventDefault();
-	adults = adults + 1;
+	adults.value = ++adults.value;
 });
 
+minus1.addEventListener("click", function (evt) {
+	evt.preventDefault();
+	adults.value = --adults.value;
+});
+
+plus2.addEventListener("click", function (evt) {
+	evt.preventDefault();
+	children.value = ++children.value;
+});
+
+minus2.addEventListener("click", function (evt) {
+	evt.preventDefault();
+	children.value = --children.value;
+});
 
 
 
