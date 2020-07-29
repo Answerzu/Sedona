@@ -303,7 +303,6 @@ margin-top: 21px;
 .form { /*position*/
 	position: absolute;
  	top: 0px; 
-
  	left: 50%;
  	margin-left: -285px;
  	display: none;
@@ -314,8 +313,7 @@ margin-top: 21px;
 form div {
 	
 
-	
-	
+		
 	
 }
 
@@ -675,6 +673,68 @@ footer {
 
 /*js*/
 
+@keyframes bounce {
+	0% {
+		transform: translateY(0);
+	}
+
+	25% {
+		transform: translateY(30px);
+	}
+
+	50% {
+		transform: translateY(-15px);
+	}
+
+	75% {
+		transform: translateY(15px);
+	}
+
+	100% {
+		transform: translateY(0);
+	}
+}
+
+@keyframes shake {
+	0% {
+		transform: translateX(0);
+	}
+
+	15% {
+		transform: translateX(-15px);
+	}
+
+	30% {
+		transform: translateX(15px);
+	}
+
+	45% {
+		transform: translateX(-15px);
+	}
+
+	60% {
+		transform: translateX(15px);
+	}
+
+	75% {
+		transform: translateX(-15px);
+	}
+
+	90% {
+		transform: translateX(15px);
+	}
+
+	100% {
+		transform: translateX(0);
+	}
+}
+
 .form-show {
 	display: block;
+	animation: bounce 0.6s;
+
+}
+
+.form-error {
+	animation: shake 0.6s;
 }
