@@ -45,7 +45,9 @@ plus1.addEventListener("click", function (evt) {
 
 minus1.addEventListener("click", function (evt) {
 	evt.preventDefault();
+	if ( adults.value > 0 ) {
 	adults.value = --adults.value;
+	}
 });
 
 plus2.addEventListener("click", function (evt) {
@@ -55,9 +57,10 @@ plus2.addEventListener("click", function (evt) {
 
 minus2.addEventListener("click", function (evt) {
 	evt.preventDefault();
+	if ( children.value > 0 ) {
 	children.value = --children.value;
+	}
 });
-
 
 
 
