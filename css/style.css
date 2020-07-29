@@ -435,18 +435,21 @@ form input {
 }
 
 
-.minus {
+.minus1,
+.minus2 {
 	
 	width: 38px;
 	padding: 0;
 	vertical-align: middle;
 }
 
-.minus img {
+.minus1,
+.minus2 img {
 	padding-bottom: 3px;
 }
 
-.plus {
+.plus1,
+plus2 {
 	margin-left: 0;
 	width: 38px;
 	padding: 0;
