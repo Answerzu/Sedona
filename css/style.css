@@ -103,11 +103,11 @@ img {
   	height: 57px;
 }
 
-.main_section {
+.reasons {
 	text-align: center;
 }
 
-.main_section h3{
+.reasons h3{
 	font-size: 21px;
 }
 
@@ -230,7 +230,7 @@ img {
 }
 
 
-.text_all {
+.search_header {
 	text-align: center;
 	background-color: white;
 	height: 205px;
@@ -238,20 +238,19 @@ img {
 	
 }
 
-.text_all div {
-	height: 147px;
-	padding-top: 58px;
-}
 
-.text_all h2 {
+.search_header h2 {
 	font-size: 30px;
 	line-height: 30px;
 	font-weight: 700;
 	margin-top: 0;
+	padding-top: 53px;
 }
 
-.text {
+.search_header p {
 	line-height: 24px;
+	margin: 0;
+	padding-bottom: 50px;
 }
 .search {
 	text-align: center;
