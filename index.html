@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
 	<meta charset="utf-8">
-	<title> Sedona hotel </title>
+	<title>Sedona Hotel</title>
 	<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -12,39 +12,31 @@
 	<header>
 		<nav class="nav">	
 			<ul class="nav_link">
-				<li ><a href="#">Информация</a></li>
+				<li><a href="#">Информация</a></li>
 				<li><a href="#">Фото и видео</a></li>
-		    	<li class="img-logo"> <img src="img/logo.png" width="140" height="72" alt = "Logo Sedona"> 
-		    	</li>
+		    	<li class="img_logo"> <img src="img/logo.png" width="140" height="72" alt = "Logo Sedona"></li>
 				<li><a href="#">Карта штата</a></li>
-				<li><a href="hotels.html">Гостиницы</a></li>
-			
+				<li><a href="hotels.html">Гостиницы</a></li>			
 			</ul>
 		</nav>
 	</header>
 
-<main>
-		<section class="background">
-		<h1 class="visually-hidden"> Hotel Sedona </h1>
-			<h2 class="visually-hidden"> About Sedona </h2>
-		</section> 
-		<div class="background_reasons">
-			
-				<p class="slogan">
-			    Седона - небольшой городок в Аризоне,<br>
-				заслуживающий большего!
-				</p>
-			
-			<h2 class="visually-hidden"> Причины</h2>
-			<p class="features-text">
-				Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!
-			</p>
-		</div>
-		</div>
+	<main>
+		<section class="main_image">
+			<h1 class="visually_hidden">Hotel Sedona</h1>
+				<img src="img/welcome.png" alt="welcome sedona" width="458" height="352">	
+		</section>
+		<section class="about_sedona">
+			<div class="reasons_header">
+				<h2 class="reasons_slogan">Седона - небольшой городок в Аризоне,<br>
+				заслуживающий большего!</h2>
+					<p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
+			</div>
 		
-			<ul class="feature-list"> 
+		
+			<ul class="feature_list"> 
 				<div class="first_reason">
-				<li class="feature-item-white1">	
+				<li class="feature_item_white1">	
 				<div>			
 					<h3> Настоящий <br> городок </h3>
 					<p>
@@ -57,11 +49,11 @@
 				</div>	
 				</li>
 						
- 					<img class="feature-photo1" src="img/reason1.jpg" width="800" height="256"
+ 					<img class="feature_photo1" src="img/reason1.jpg" width="800" height="256"
 					alt = "First reason Sedona">
 		</div>
 		<div class="features">
-			<ul class="features-img">
+			<ul class="features_img">
 				<li>
 					<figure>
 						<img src="img/accommodation.png" width="75" height="72"
@@ -100,9 +92,9 @@
 			</ul>
 		</div>	
 			<div class="second_reason">
-				<img class="feature-photo2" src="img/reason2.jpg" width="800" height="256"
+				<img class="feature_photo2" src="img/reason2.jpg" width="800" height="256"
 				alt = "Second reason Sedona">
-				<li class="feature-item-white2">
+				<li class="feature_item_white2">
 					<div>			
 					<h3> Там есть <br>
 					мост дьявола </h3>
@@ -117,7 +109,7 @@
 				</li> 
 			</div>
 			<div class="reason_black">	
-				<li class="feature-item-black">
+				<li class="feature_item_black">
 					<div class="dark">
 					<h3> Небольшая <br>
 					площадь </h3>
@@ -130,7 +122,7 @@
 					</p>
 					</div>
 				</li>
-				<li class="feature-item-black">
+				<li class="feature_item_black">
 					<div class="dark">
 					<h3> Красивая <br>
 					дорога </h3>
@@ -143,7 +135,7 @@
 					</p>
 					</div>
 				</li>
-				<li class="feature-item-black">
+				<li class="feature_item_black">
 					<div class="dark">
 					<h3> Мало <br>
 					туристов </h3>
@@ -158,7 +150,7 @@
 				</li>
 				</div>
 			</ul>
-		<section class="text-all">
+		<section class="text_all">
 			<div>
 			  	<h2> Заинтересовались? </h2>
 				<p class="text">
@@ -167,27 +159,29 @@
 				</p>
 			</div>
 		</section>
+	</section>
+
 		<div class="search">
-			<button class="search-form"> Поиск гостиницы в Седоне</button>
+			<button class="search_form"> Поиск гостиницы в Седоне</button>
 		</div>
-		<section class="form-container">
+		<section class="form_container">
 		<div class="form">
-				<form class="form-search" action="https:/echo.htmlacademy.ru" method ="post">
+				<form class="form_search" action="https:/echo.htmlacademy.ru" method ="post">
 				
 				
 					<div class="arrival">
-						<label for="arrival-date">Дата заезда:</label>
+						<label for="arrival_date">Дата заезда:</label>
 						<div class="date">
-						<input id="arrival-date" type="text" name="date1" placeholder="24 апреля 2017">
+						<input id="arrival_date" type="text" name="date1" placeholder="24 апреля 2017">
 						<button class="calendar" type="button">
 							<img src="img/calendar.png" width="21" height="22" alt="календарь">
 						</button>
 						</div>
 					</div>
 					<div class="departure">
-						<label for="departure-date">Дата выезда:</label>
+						<label for="departure_date">Дата выезда:</label>
 						<div class="date2">
-						<input id="departure-date" type="text" name="date2" placeholder="25 апреля 2017">
+						<input id="departure_date" type="text" name="date2" placeholder="25 апреля 2017">
 						<button class="calendar" type="button">
 							<img src="img/calendar.png" width="21" height="22" alt="календарь">
 						</button>
@@ -225,7 +219,7 @@
 			</form>
 			</div>
 		</section>
-		<div class="map-background">	
+		<div class="map_background">	
 			<section class="map">
 				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d62289.03343487469!2d-111.78179795434333!3d34.8646676167134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1595592243652!5m2!1sru!2sru" width="1200" height="593" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 			</section>	
