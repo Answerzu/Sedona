@@ -1,7 +1,7 @@
-var button = document.querySelector(".search_form");
+var button = document.querySelector(".search_button");
 var form = document.querySelector(".form");
-var date1 = form.querySelector("[name=date1]");
-var date2 = form.querySelector("[name=date2]");
+var arrival = form.querySelector("[name=arrival_date]");
+var departure = form.querySelector("[name=departure_date]");
 var adults = form.querySelector("[name=num1]");
 var children = form.querySelector("[name=num2]");
 var plus1 = document.querySelector(".plus1");
@@ -13,12 +13,12 @@ var minus2 = document.querySelector(".minus2");
 button.addEventListener("click", function (evt) { /* добавляем возможность показать/скрыть форму */
 	evt.preventDefault();
 	form.classList.toggle("form_show");
-	date1.focus();
+	arrival.focus();
 	form.classList.remove("form_error")
 });
 
 form.addEventListener("submit", function (evt) { /* запрящаем отправлять форму, если есть пустые поля*/
-	if (!date1.value || !date2.value || adults.value == 0 && children.value == 0) {
+	if (!arrival.value || !departure.value || adults.value == 0 && children.value == 0) {
 		evt.preventDefault();
 		form.classList.remove("form_error");
 		form.offsetWidth = form.offsetWidth;

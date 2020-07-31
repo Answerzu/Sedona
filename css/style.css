@@ -229,15 +229,16 @@ img {
 	margin-top: 0;
 }
 
+.search {
+	text-align: center;
+	background-color: white;
+}
 
 .search_header {
 	text-align: center;
 	background-color: white;
 	height: 205px;
-	
-	
 }
-
 
 .search_header h2 {
 	font-size: 30px;
@@ -252,14 +253,8 @@ img {
 	margin: 0;
 	padding-bottom: 50px;
 }
-.search {
-	text-align: center;
-	background-color: white;
 
-
-}
-
-.search button {
+.search_button {
 	font: inherit;
 	text-transform: uppercase;
 	text-align: center;
@@ -274,21 +269,21 @@ img {
 	padding: 0;
 }
 
-.search button:hover,
-.search button:focus {
+.search_button:hover,
+.search_button:focus {
 	background-color: #604e43
 }
 
 
-.form_container{
+.form_starting_position{
 	position: relative;
 }
 
 .form {
 	padding: 55px 57px 51px 53px;
 	width: 460px;
-	
 	background-color: white;
+	display: none;
 }
 
 .form { /*position*/
@@ -296,32 +291,26 @@ img {
  	top: 0px; 
  	left: 50%;
  	margin-left: -285px;
- 	display: none;
+ 	
 
  	
 }
 
-form div {
-	
 
-		
-	
-}
-
-.arrival {
+.arrival_row {
 	display: flex;
 	align-items: center;
 	padding: 0;
 	margin-bottom: 30px;
 }
 
-.departure {
+.departure_row {
 	display: flex;
 	align-items: center;
 	margin-bottom: 30px;
 }
 
-.date {
+.arrival_input {
 	display: flex;
 	align-items: center;
 	width: 346px;
@@ -330,7 +319,7 @@ form div {
 
 }
 
-.date2 {
+.departure_input {
 	display: flex;
 	align-items: center;
 	width: 346px;
@@ -339,7 +328,7 @@ form div {
 
 }
 
-.date button {
+.arrival_input button {
 	height: 38px;
 	border: none;
 	padding: 0;
@@ -347,7 +336,7 @@ form div {
 
 }
 
-.date2 button {
+.departure_input button {
 	height: 38px;
 	border: none;
 	padding: 0;
@@ -368,14 +357,14 @@ form input {
 
 }
 
-.arrival input {
+.arrival_row input {
 	padding: 0;
 	padding-left: 13px;
 	flex-grow: 1;
 
 } 
 
-.departure input {
+.departure_row input {
 	padding: 0;
 	padding-left: 13px;
 	flex-grow: 1;
@@ -487,27 +476,24 @@ form input {
 	width: 459px;
 
 }
-/*
-.button-search {
-	margin-top: 55px;
-} */
 
-.form_search div {
+
+.form_inner div {
 	line-height: 26px;
 	font-weight: 700;
 }
 
-.form_search input {
+.form_inner input {
 	font: inherit;
 	background-color: #f2f2f2; 
 	border:none;
 }
 
-.form_search input:hover {
+.form_inner input:hover {
 	background-color: #ebebeb;
 }
 
-.form_search input:focus {
+.form_inner input:focus {
 	background-color: white;
 	outline:none;
 	border: 2px solid #e5e5e5; 
