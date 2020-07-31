@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
 	<meta charset="utf-8">
-	<title>Sedona Hotel</title>
+	<title>Отель Седона</title>
 	<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -23,13 +23,13 @@
 
 	<main>
 		<section class="main_image">
-			<h1 class="visually_hidden">Hotel Sedona</h1>
+			<h1 class="visually_hidden">Рекламный плакат Седона</h1>
 			<img src="img/welcome.png" alt="welcome sedona" width="458" height="352">	
 		</section>
 		<section class="reasons">
+			<h2 class="visually_hidden">Причины посетить Седону</h2>
 			<div class="reasons_header">
-				<h2 class="reasons_slogan">Седона - небольшой городок в Аризоне,<br>
-				заслуживающий большего!</h2>
+				<p>Седона - небольшой городок в Аризоне,<br>заслуживающий большего!</p>
 				<p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
 			</div>
 			<div class="first_reason">
@@ -86,99 +86,89 @@
 			</div>
 		</section>
 		<section class="search">
+			<h2 class="visually_hidden">Поиск гостиницы в Седоне</h2>
 			<div class="search_header">
-			  	<h2>Заинтересовались?</h2>
+			  	<p>Заинтересовались?</p>
 				<p>Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
 			</div>
 			<div class="search_button_container">
-				<button class="search_button">Поиск гостиницы в Седоне</button>
+				<button class="search_button_show">Поиск гостиницы в Седоне</button>
 			</div>
 			<div class="form_starting_position">
 				<div class="form">
-					<form class="form_inner" action="https:/echo.htmlacademy.ru" method ="post">
+					<form class="form_inner" action="https://echo.htmlacademy.ru" method ="post">
 						<div class="arrival_row">
-							<label for="ad">Дата заезда:</label>
+							<label for="arrival">Дата заезда:</label>
 							<div class="arrival_input">
-								<input id="ad" type="text" name="arrival_date" placeholder="24 апреля 2017">
+								<input id="arrival" type="text" name="arrival_date" placeholder="24 апреля 2017">
 								<button class="calendar" type="button">
 								<img src="img/calendar.png" width="21" height="22" alt="календарь">
 								</button>
 							</div>
 						</div>
 						<div class="departure_row">
-							<label for="dd">Дата выезда:</label>
+							<label for="departure">Дата выезда:</label>
 							<div class="departure_input">
-								<input id="dd" type="text" name="departure_date" placeholder="25 апреля 2017">
+								<input id="departure" type="text" name="departure_date" placeholder="25 апреля 2017">
 								<button class="calendar" type="button">
 								<img src="img/calendar.png" width="21" height="22" alt="календарь">
 								</button>
 							</div>
 						</div>
-				<div class="people">
-					<div class="adults">
-						<label for="adults">Взрослые:</label>
-							<div class="numbers">
-							<button class="minus1" type="button">
+						<div class="guests_row">
+							<div class="adults">
+								<label for="adults">Взрослые:</label>
+								<div class="adults_input">
+									<button class="adults_minus" type="button">
 									<img src="img/minus.png" width="12" height="3" alt="меньше">
-							</button>
-							<input id="adults" type="number" name="num1" value="2">
-							<button class="plus1" type="button">
+									</button>
+									<input id="adults" type="number" name="adults" value="2">
+									<button class="adults_plus" type="button">
 									<img src="img/plus.png" width="11" height="11" alt="больше">
-							</button>
+									</button>
+								</div>
 							</div>
-					</div>
-					<div class="children">
-						<label for="children">Дети:</label>
-							<div class="numbers2">
-							<button class="minus2" type="button">
+							<div class="children">
+								<label for="children">Дети:</label>
+								<div class="children_input">
+									<button class="children_minus" type="button">
 									<img src="img/minus.png" width="12" height="3" alt="меньше">
-							</button>
-							<input id="children" type="number" name="num2" value="0">
-							<button class="plus2" type="button">
+									</button>
+									<input id="children" type="number" name="children" value="0">
+									<button class="children_plus" type="button">
 									<img src="img/plus.png" width="11" height="11" alt="больше">
-							</button>
+									</button>
+								</div>
 							</div>
-					</div>
+						</div>
+						<button class="search_button" type="submit">Найти</button>
+					</form>
 				</div>
-				
-				<button class="button" type="submit">Найти</button>
-				
-			</form>
 			</div>
-		</div>
-		</section>
-		<div class="map_background">	
-			<section class="map">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d62289.03343487469!2d-111.78179795434333!3d34.8646676167134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1595592243652!5m2!1sru!2sru" width="1200" height="593" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-			</section>	
+		</section>	
+		<section class="map">
+			<h2 class="visually_hidden">Карта</h2> 
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d62289.03343487469!2d-111.78179795434333!3d34.8646676167134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1595592243652!5m2!1sru!2sru" width="1200" height="593"></iframe>
+		</section>	
 	</main>  
 	<footer class="footer">
 		<section class="contacts">
+			<h2 class="visually_hidden">Контакты</h2> 
 			<a href="#">#VISITSEDONA</a>
 	    	<span>ТЕЛ: +7 (495) 666-02-66</span>
 		</section>
 		<section class="social">
-			<a  href="#"Twitter>
-			    <img class="twitter" src="img/twitter.png" width="17" height="15"
-				alt = "Twitter"> </a>
-			<a  href="#"Facebook>
-				<img class="facebook" src="img/facebook.png" width="12" height="22"
-				alt = "Facebook"> </a>
-			<a  href="#"Youtube>
-				<img class="youtube" src="img/youtube.png" width="20" height="16"
-				alt = "Youtube"> </a>
+			<h2 class="visually_hidden">Социальные сети</h2> 
+			<a href="#"Twitter><img class="twitter" src="img/twitter.png" width="17" height="15" alt = "Twitter"></a>
+			<a href="#"Facebook><img class="facebook" src="img/facebook.png" width="12" height="22" alt = "Facebook"></a>
+			<a href="#"Youtube><img class="youtube" src="img/youtube.png" width="20" height="16" alt = "Youtube"></a>
 		</section>
 		<section class="academy">
+			<h2 class="visually_hidden">HTML Academy logo</h2> 
 			<span> website by </span>
-			<a href="#"HTML Academy> 
-				<img src="img/academy.png" width="115" height="41"
-				alt = "HTML Academy">
-			</a>
+			<a href="#"HTML Academy><img src="img/academy.png" width="115" height="41" alt = "HTML Academy"></a>
 		</section>
 	</footer>
-	</div>
-	
-	<script src="js/form.js"></script>	
-		
+	<script src="js/form.js"></script>		
 </body>
 </html>
