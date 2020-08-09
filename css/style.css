@@ -34,6 +34,14 @@ img {
    	clip: rect(0 0 0 0)
 }
 
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: "symbols-sedona";
+  src: url("../fonts/symbols-sedona.woff") format("woff"),
+  url("../fonts/symbols-sedona.woff2") format("woff2");
+}
+
 /*header*/
 
 .nav {
@@ -325,6 +333,12 @@ img {
 
 }
 
+.calendar:after {
+	content: url(../img/calendar.png);
+  	margin: 0 10px;
+
+}
+
 .departure_input {
 	display: flex;
 	align-items: center;
@@ -339,7 +353,6 @@ img {
 	border: none;
 	padding: 0;
 	background-color: #f2f2f2; 
-
 }
 
 .departure_input button {
@@ -347,20 +360,11 @@ img {
 	border: none;
 	padding: 0;
 	background-color: #f2f2f2; 
-
 }
 
-
-.calendar img {
-	padding-right: 10px;
-	padding-left: 10px;
-}
 
 form input {
-
 	height: 38px;
-
-
 }
 
 .arrival_row input {
@@ -404,38 +408,29 @@ form input {
 	height: 38px;
 	background-color: #f2f2f2; 
 	border:none;
-	
+}
+
+.adults_minus:after,
+.children_minus:after {
+	color: #a9a9a9;
+	font-family: "symbols-sedona";
+	content: "\e802";
 
 }
 
-
-.adults_minus,
-.children_minus {
-	
-	width: 38px;
-	padding: 0;
-	vertical-align: middle;
+.adults_plus:after,
+.children_plus:after {
+	color: #a9a9a9;
+	font-family: "symbols-sedona";
+	content: "\e801";
 }
 
-.adults_minus,
-.children_minus img {
-	padding-bottom: 3px;
-}
-
-.adults_plus,
-.children_plus {
-	margin-left: 0;
-	width: 38px;
-	padding: 0;
-}
 
 .adults_input {
 	display: flex;
 	padding: 0;
 	width: 114px;
 	margin-left: 39px;
-
-
 }
 
 .children_input {
