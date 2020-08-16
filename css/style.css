@@ -688,3 +688,88 @@ footer section {
 .form_error {
 	animation: shake 0.6s;
 }
+
+
+/*hotels.html*/
+.hotel_selection {
+	color: white;
+	background-color: #3e79a2;
+	background-image: url(../img/filter_background.jpg);
+	background-repeat: no-repeat;
+
+}
+
+.hotel_selection_form {
+	display: flex;
+	height: 217px;
+}
+
+
+.hotel_selection ul{
+	list-style: none;
+	padding-left: 0;
+}
+
+
+fieldset {
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
+.infrastructure {
+	width: 240px;
+	padding-left: 72px;
+
+}
+
+.accommodation {
+	width: 273px;
+	padding-left: 15px;
+}
+
+.price {
+	width: 316px;
+	padding-left: 211px;
+	
+}
+
+.price_range input {
+	max-width: 35px;
+}
+
+.price button{
+	display: block;
+}
+
+legend {
+	font-weight: 700;
+	padding-top: 20px;
+}
+
+.searching_result {
+	display: flex;
+	height: 87px;
+	align-items: center;
+	background-color: white;
+}
+
+.found_hotels {
+	background-color: white;
+}
+
+.sorting {
+	display: flex;
+}
+
+.first_hotel {
+	display: flex;
+}
+
+.second_hotel {
+	display: flex;
+}
+
+.third_hotel {
+	display: flex;
+}
