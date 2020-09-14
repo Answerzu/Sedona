@@ -762,14 +762,32 @@ legend {
 	display: flex;
 }
 
-.first_hotel {
+.first_hotel,
+.second_hotel,
+.third_hotel
+ {
 	display: flex;
-}
+	height: 152px;
+	border-top: 1px solid #e5e5e5;
 
-.second_hotel {
-	display: flex;
+
 }
 
 .third_hotel {
-	display: flex;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+
+
+.found_hotels image {
+	height: 90px;
+}
+
+.hotel_image {
+	padding: 25px 30px 0 70px;
+}
+
+.hotel_discription {
+	padding-top: 25px;
+	height: 90px;
 }
