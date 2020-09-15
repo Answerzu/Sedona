@@ -11,10 +11,10 @@
 <body>
 	<header>
 		<nav class="nav">	
-			<ul class="nav_list">
+			<ul class="navList">
 				<li><a href="#">Информация</a></li>
 				<li><a href="#">Фото и видео</a></li>
-		    	<li class="img_logo"> <img src="img/logo.png" width="140" height="72" alt = "Logo Sedona"></li>
+		    	<li class="imgLogo"> <img src="img/logo.png" width="140" height="72" alt = "Logo Sedona"></li>
 				<li><a href="#">Карта штата</a></li>
 				<!-- <li><a href="hotels.html">Гостиницы</a></li> -->
 				<li><a href="#">Гостиницы</a></li>
@@ -23,18 +23,18 @@
 	</header>
 
 	<main>
-		<section class="main_image">
-			<h1 class="visually_hidden">Рекламный плакат Седона</h1>
+		<section class="mainImage">
+			<h1 class="visuallyHidden">Рекламный плакат Седона</h1>
 			<img src="img/welcome.png" alt="welcome sedona" width="458" height="352">	
 		</section>
 		<section class="reasons">
-			<h2 class="visually_hidden">Причины посетить Седону</h2>
-			<div class="reasons_header">
+			<h2 class="visuallyHidden">Причины посетить Седону</h2>
+			<div class="reasonsHeader">
 				<p>Седона - небольшой городок в Аризоне,<br>заслуживающий большего!</p>
 				<p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
 			</div>
-			<div class="first_reason">
-				<div class="first_reason_text">	
+			<div class="firstReason">
+				<div class="firstReasonText">	
 					<h3>Настоящий<br>городок</h3>
 					<p>- №1 -<br></p>
 					<p>Седона - не аттракцион для туристов,<br>там течет своя жизнь</p>
@@ -42,31 +42,31 @@
 				<img src="img/reason1.jpg" width="800" height="256"
 				alt = "First reason Sedona">	
 			</div>
-			<div class="reasons_without_number">
-				<div class="accommodation_reason">
+			<div class="reasonsWithoutNumber">
+				<div class="accommodationReason">
 					<h3>Жильё</h3>
 					<p>Рекомендуем пожить в настоящем <br>
 					мотеле, всё как в кино!</p>
 				</div>
-				<div class="food_reason">
+				<div class="foodReason">
 					<h3>Еда</h3>
 					<p>Всегда заказывайте фирменный бургер,<br>вы не разочаруетесь!</p>
 				</div>
-				<div class="souvenir_reason">
+				<div class="souvenirReason">
 					<h3> Сувениры </h3>
 					<p>Не только китайского, но и местного <br>производства!</p>
 				</div>
 			</div>	
-			<div class="second_reason">
+			<div class="secondReason">
 				<img src="img/reason2.jpg" width="800" height="256"
 				alt = "Second reason Sedona">
-				<div class="second_reason_text">			
+				<div class="secondReasonText">			
 					<h3>Там есть<br>мост дьявола </h3>
 					<p>- №2 -</p>
 					<p>Да, по нему можно пройти! Если конечно <br>вы осмелитесь</p>
 				</div>	
 			</div>
-			<div class="reasons_with_grey_bg">	
+			<div class="reasonsWithGreyBg">	
 				<div>
 					<h3>Небольшая<br>площадь</h3>
 					<p>- №3 -</p>
@@ -87,73 +87,73 @@
 			</div>
 		</section>
 		<section class="search">
-			<h2 class="visually_hidden">Поиск гостиницы в Седоне</h2>
-			<div class="search_header">
+			<h2 class="visuallyHidden">Поиск гостиницы в Седоне</h2>
+			<div class="searchHeader">
 			  	<p>Заинтересовались?</p>
 				<p>Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
 			</div>
-			<div class="search_button_container">
-				<button class="search_button_show">Поиск гостиницы в Седоне</button>
+			<div class="searchButtonContainer">
+				<button class="searchButtonShow">Поиск гостиницы в Седоне</button>
 			</div>
-			<div class="form_starting_position">
+			<div class="formStartingPosition">
 				<div class="form">
-					<form class="form_inner" action="https://echo.htmlacademy.ru" method ="post">
-						<div class="arrival_row">
+					<form class="formInner" action="https://echo.htmlacademy.ru" method ="post">
+						<div class="arrivalRow">
 							<label for="arrival">Дата заезда:</label>
-							<div class="arrival_input">
-								<input id="arrival" type="text" name="arrival_date" placeholder="24 апреля 2017">
+							<div class="arrivalInput">
+								<input id="arrival" type="text" name="arrivalDate" placeholder="24 апреля 2017">
 								<button class="calendar" type="button"></button>
 							</div>
 						</div>
-						<div class="departure_row">
+						<div class="departureRow">
 							<label for="departure">Дата выезда:</label>
-							<div class="departure_input">
-								<input id="departure" type="text" name="departure_date" placeholder="25 апреля 2017">
+							<div class="departureInput">
+								<input id="departure" type="text" name="departureDate" placeholder="25 апреля 2017">
 								<button class="calendar" type="button"></button>
 							</div>
 						</div>
-						<div class="guests_row">
+						<div class="guestsRow">
 							<div class="adults">
 								<label for="adults">Взрослые:</label>
-								<div class="adults_input">
-									<button class="adults_minus" type="button"></button>
+								<div class="adultsInput">
+									<button class="adultsMinus" type="button"></button>
 									<input id="adults" type="number" name="adults" value="2">
-									<button class="adults_plus" type="button"></button>
+									<button class="adultsPlus" type="button"></button>
 								</div>
 							</div>
 							<div class="children">
 								<label for="children">Дети:</label>
-								<div class="children_input">
-									<button class="children_minus" type="button"></button>
+								<div class="childrenInput">
+									<button class="childrenMinus" type="button"></button>
 									<input id="children" type="number" name="children" value="0">
-									<button class="children_plus" type="button"></button>
+									<button class="childrenPlus" type="button"></button>
 								</div>
 							</div>
 						</div>
-						<button class="search_button" type="submit">Найти</button>
+						<button class="searchButton" type="submit">Найти</button>
 					</form>
 				</div>
 			</div>
 		</section>	
 		<section class="map">
-			<h2 class="visually_hidden">Карта</h2> 
+			<h2 class="visuallyHidden">Карта</h2> 
 			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d62289.03343487469!2d-111.78179795434333!3d34.8646676167134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1595592243652!5m2!1sru!2sru" width="1200" height="593"></iframe>
 		</section>	
 	</main>  
 	<footer class="footer">
 		<section class="contacts">
-			<h2 class="visually_hidden">Контакты</h2> 
+			<h2 class="visuallyHidden">Контакты</h2> 
 			<a href="#">#VISITSEDONA</a>
 	    	<span>ТЕЛ: +7 (495) 666-02-66</span>
 		</section>
 		<section class="social">
-			<h2 class="visually_hidden">Социальные сети</h2> 
+			<h2 class="visuallyHidden">Социальные сети</h2> 
 			<a href="#"><img class="twitter" src="img/twitter.png" width="17" height="15" alt = "Twitter"></a>
 			<a href="#"><img class="facebook" src="img/facebook.png" width="12" height="22" alt = "Facebook"></a>
 			<a href="#"><img class="youtube" src="img/youtube.png" width="20" height="16" alt = "Youtube"></a>
 		</section>
 		<section class="academy">
-			<h2 class="visually_hidden">HTML Academy logo</h2> 
+			<h2 class="visuallyHidden">HTML Academy logo</h2> 
 			<span> website by </span>
 			<a href="#"><img src="img/academy.png" width="115" height="41" alt = "HTML Academy"></a>
 		</section>

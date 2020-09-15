@@ -23,7 +23,7 @@ img {
 	height: auto;
 }
 
-.visually_hidden {
+.visuallyHidden {
   	position: absolute;
    	width: 1px;
    	height: 1px;
@@ -51,7 +51,7 @@ img {
 	background-color:#ffffff;
 }
 
-.nav_list {
+.navList {
 	display: flex;  
 	flex-wrap: wrap;
 	list-style: none;
@@ -60,36 +60,36 @@ img {
 	text-align: center;
 }
 
-.nav_list li { 
+.navList li { 
 	height: 56px;
 	width: 240px;
 	
 }
 
 
-.nav_list a {
+.navList a {
 	display: block;
 	color:#000000;
 	padding-top: 15px;
 }
 
-.nav_list a:hover, 
-.nav_list a:focus {
+.navList a:hover, 
+.navList a:focus {
 	color: #81b3d2;
 	background-color: white; 
 }
 
-.img_logo {
+.imgLogo {
 	z-index: 1;
 }
 
-.img_logo a {
+.imgLogo a {
 	padding-top: 0;
 }
 
 /*main*/
 
-.main_image {
+.mainImage {
 	height: 431px;
     padding-top: 76px;
     position: relative;
@@ -99,12 +99,12 @@ img {
    
 }
 
-.main_image img {
+.mainImage img {
   	display: block;
  	margin: 0 auto;
 }
 
-.main_image:after {
+.mainImage:after {
  	content: url(../img/polygon.png);
   	position: absolute;
   	bottom: 0;
@@ -122,7 +122,7 @@ img {
 	font-size: 21px;
 }
 
-.reasons_header {
+.reasonsHeader {
 	height: 115px;
 	padding-top: 60px;
 	padding-bottom: 40px;
@@ -130,7 +130,7 @@ img {
 	background-color: white;
 }
 
-.reasons_header p:first-child {
+.reasonsHeader p:first-child {
 	margin: 0;
     margin-bottom: 30px;
 	font-size: 21px;
@@ -139,11 +139,11 @@ img {
 }
 
 
-.first_reason {
+.firstReason {
 	display: flex;
 }
 
-.first_reason_text{
+.firstReasonText{
 	height: 256px;
 	width: 400px;
 	color: white;
@@ -151,35 +151,35 @@ img {
 	margin-right: 0;
 }
 
-.first_reason img {
+.firstReason img {
 	background-image: url("img/reason1_back.jpg");
 }
 
 
-.reasons_without_number {
+.reasonsWithoutNumber {
 	display: flex;
 	flex-wrap: wrap;
 	background-color: white;
 	text-align: center;
 }
 
-.reasons_without_number div {
+.reasonsWithoutNumber div {
 	width: 400px;
 	min-height: 330px;
 }
 
-.reasons_without_number h3 {
+.reasonsWithoutNumber h3 {
 	margin-top: 0;
 	padding-top: 164px;
 }
 
-.accommodation_reason,
-.food_reason,
-.souvenir_reason {
+.accommodationReason,
+.foodReason,
+.souvenirReason {
 	position: relative;
 }
 
-.accommodation_reason :before {
+.accommodationReason :before {
 	content: url(../img/accommodation.png);
 	position: absolute;
 	top: 60px;
@@ -187,7 +187,7 @@ img {
 	margin-left: -37.5px;
 }
 
-.food_reason :before {
+.foodReason :before {
 	content: url(../img/food.png);
 	position: absolute;
 	top: 61px;
@@ -195,7 +195,7 @@ img {
 	margin-left: -37px;
 }
 
-.souvenir_reason :before {
+.souvenirReason :before {
 	content: url(../img/souvenir.png);
 	position: absolute;
 	top: 56px;
@@ -204,11 +204,11 @@ img {
 }
 
 
-.second_reason {
+.secondReason {
 	display: flex;
 }
 
-.second_reason_text {
+.secondReasonText {
 	height: 256px;
 	color: white;
 	background-color: #81b3d2;
@@ -217,26 +217,26 @@ img {
 
 }
 
-.second_reason img {
+.secondReason img {
 	background-image: url("img/reason2_back.jpg");
 }
 
-.reasons_with_grey_bg {
+.reasonsWithGreyBg {
 	display: flex;
 	flex-wrap: wrap;
 	
 }
 
-.reasons_with_grey_bg div {
+.reasonsWithGreyBg div {
 	width: 400px;
 	min-height: 256px;
 	color: black;
 	background-color: #eeeeee;
 }
 
-.first_reason h3,
-.second_reason h3,
-.reasons_with_grey_bg h3 {
+.firstReason h3,
+.secondReason h3,
+.reasonsWithGreyBg h3 {
 	padding-top: 50px;
 	margin-top: 0;
 }
@@ -246,13 +246,13 @@ img {
 	background-color: white;
 }
 
-.search_header {
+.searchHeader {
 	text-align: center;
 	background-color: white;
 	height: 205px;
 }
 
-.search_header p:first-child {
+.searchHeader p:first-child {
 	font-size: 30px;
 	line-height: 30px;
 	font-weight: 700;
@@ -262,13 +262,13 @@ img {
 	padding-bottom: 0;
 }
 
-.search_header p {
+.searchHeader p {
 	line-height: 24px;
 	margin: 0;
 	padding-bottom: 50px;
 }
 
-.search_button_show {
+.searchButtonShow {
 	font: inherit;
 	text-transform: uppercase;
 	text-align: center;
@@ -283,13 +283,13 @@ img {
 	padding: 0;
 }
 
-.search_button_show:hover,
-.search_button_show:focus {
+.searchButtonShow:hover,
+.searchButtonShow:focus {
 	background-color: #604e43
 }
 
 
-.form_starting_position{
+.formStartingPosition{
 	position: relative;
 }
 
@@ -311,20 +311,20 @@ img {
 }
 
 
-.arrival_row {
+.arrivalRow {
 	display: flex;
 	align-items: center;
 	padding: 0;
 	margin-bottom: 30px;
 }
 
-.departure_row {
+.departureRow {
 	display: flex;
 	align-items: center;
 	margin-bottom: 30px;
 }
 
-.arrival_input {
+.arrivalInput {
 	display: flex;
 	align-items: center;
 	width: 346px;
@@ -339,7 +339,7 @@ img {
 
 }
 
-.departure_input {
+.departureInput {
 	display: flex;
 	align-items: center;
 	width: 346px;
@@ -348,14 +348,14 @@ img {
 
 }
 
-.arrival_input button {
+.arrivalInput button {
 	height: 38px;
 	border: none;
 	padding: 0;
 	background-color: #f2f2f2; 
 }
 
-.departure_input button {
+.departureInput button {
 	height: 38px;
 	border: none;
 	padding: 0;
@@ -367,20 +367,20 @@ form input {
 	height: 38px;
 }
 
-.arrival_row input {
+.arrivalRow input {
 	padding: 0;
 	padding-left: 13px;
 	flex-grow: 1;
 
 } 
 
-.departure_row input {
+.departureRow input {
 	padding: 0;
 	padding-left: 13px;
 	flex-grow: 1;
 }
 
-.guests_row {
+.guestsRow {
 	display: flex;
 	align-items: center;
 
@@ -410,30 +410,30 @@ form input {
 	border:none;
 }
 
-.adults_minus:after,
-.children_minus:after {
+.adultsMinus:after,
+.childrenMinus:after {
 	color: #a9a9a9;
 	font-family: "symbols-sedona";
 	content: "\e802";
 
 }
 
-.adults_plus:after,
-.children_plus:after {
+.adultsPlus:after,
+.childrenPlus:after {
 	color: #a9a9a9;
 	font-family: "symbols-sedona";
 	content: "\e801";
 }
 
 
-.adults_input {
+.adultsInput {
 	display: flex;
 	padding: 0;
 	width: 114px;
 	margin-left: 39px;
 }
 
-.children_input {
+.childrenInput {
 	display: flex;
 	padding: 0;
 	width: 114px;
@@ -455,7 +455,7 @@ form input {
 	border:none;
 }
 
-.search_button {
+.searchButton {
 	height: 58px;
 	width: 459px;
 	
@@ -476,29 +476,29 @@ form input {
 }
 
 
-.form_inner div {
+.formInner div {
 	line-height: 26px;
 	font-weight: 700;
 }
 
-.form_inner input {
+.formInner input {
 	font: inherit;
 	background-color: #f2f2f2; 
 	border:none;
 }
 
-.form_inner input:hover {
+.formInner input:hover {
 	background-color: #ebebeb;
 }
 
-.form_inner input:focus {
+.formInner input:focus {
 	background-color: white;
 	outline:none;
 	border: 2px solid #e5e5e5; 
 }
 
-.search_button:hover,
-.search_button:focus {
+.searchButton:hover,
+.searchButton:focus {
 	background-color: #669ec0;
 	outline:none;
 }
@@ -679,19 +679,19 @@ footer section {
 	}
 }
 
-.form_show {
+.formShow {
 	display: block;
 	animation: bounce 0.6s;
 
 }
 
-.form_error {
+.formError {
 	animation: shake 0.6s;
 }
 
 
 /*hotels.html*/
-.hotel_selection {
+.hotelSelection {
 	color: white;
 	background-color: #3e79a2;
 	background-image: url(../img/filter_background.jpg);
@@ -699,13 +699,13 @@ footer section {
 
 }
 
-.hotel_selection_form {
+.hotelSelectionForm {
 	display: flex;
 	height: 217px;
 }
 
 
-.hotel_selection ul{
+.hotelSelection ul{
 	list-style: none;
 	padding-left: 0;
 }
@@ -747,14 +747,14 @@ legend {
 	padding-top: 20px;
 }
 
-.searching_result {
+.searchingResult {
 	display: flex;
 	height: 87px;
 	align-items: center;
 	background-color: white;
 }
 
-.found_hotels {
+.foundHotels {
 	background-color: white;
 }
 
@@ -762,9 +762,9 @@ legend {
 	display: flex;
 }
 
-.first_hotel,
-.second_hotel,
-.third_hotel
+.firstHotel,
+.secondHotel,
+.thirdHotel
  {
 	display: flex;
 	height: 152px;
@@ -773,21 +773,21 @@ legend {
 
 }
 
-.third_hotel {
+.thirdHotel {
 	border-bottom: 1px solid #e5e5e5;
 }
 
 
 
-.found_hotels image {
+.foundHotels image {
 	height: 90px;
 }
 
-.hotel_image {
+.hotelImage {
 	padding: 25px 30px 0 70px;
 }
 
-.hotel_discription {
+.hotelDiscription {
 	padding-top: 25px;
 	height: 90px;
 }

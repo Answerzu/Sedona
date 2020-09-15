@@ -11,7 +11,7 @@
 <body>
 	<header>
 		<nav class="nav">	
-			<ul class="nav_list">
+			<ul class="navList">
 				<li><a href="#">Информация</a></li>
 				<li><a href="#">Фото и видео</a></li>
 		    	<li class="img_logo"><a href="index.html"><img src="img/logo.png" width="140" height="72" alt = "Logo Sedona"> </a>
@@ -21,46 +21,46 @@
 		</nav>
 	</header>
 	<main>
-		<section class="hotel_selection">
-			<h1 class="visually_hidden">Форма для поиска гостиницы</h1>
-			<form class="hotel_selection_form" action="https://echo.htmlacademy.ru" method ="post">
+		<section class="hotelSelection">
+			<h1 class="visuallyHidden">Форма для поиска гостиницы</h1>
+			<form class="hotelSelectionForm" action="https://echo.htmlacademy.ru" method ="post">
 				<fieldset class="infrastructure">
 					<legend>Инфраструктура:</legend>
 						<ul>
-							<li><input id="filter_pool" type="checkbox" name="pool" checked>
-							<label for="filter_pool">Бассейн</label></li>
-							<li><input id="filter_parking" type="checkbox" name="parking">
-							<label for="filter_parking">Парковка</label></li>
-							<li><input id="filter_wifi" type="checkbox" name="wifi">
-							<label for="filter_wifi">Wi-Fi</label></li>
+							<li><input id="filterPool" type="checkbox" name="pool" checked>
+							<label for="filterPool">Бассейн</label></li>
+							<li><input id="filterParking" type="checkbox" name="parking">
+							<label for="filterParking">Парковка</label></li>
+							<li><input id="filterWifi" type="checkbox" name="wifi">
+							<label for="filterWifi">Wi-Fi</label></li>
 						</ul>
 				</fieldset>
 				<fieldset class="accommodation">
 					<legend>Тип жилья:</legend>
 						<ul>
-							<li><input id="filter_hotel" type="checkbox" name="pool" checked>
-							<label for="filter_hotel">Гостиница</label></li>
-							<li><input id="filter_motel" type="checkbox" name="parking" checked>
-							<label for="filter_motel">Мотель</label></li>
-							<li><input id="filter_apartments" type="checkbox" name="wifi" checked>
-							<label for="filter_apartments">Апартаменты</label></li>
+							<li><input id="filterHotel" type="checkbox" name="pool" checked>
+							<label for="filterHotel">Гостиница</label></li>
+							<li><input id="filterMotel" type="checkbox" name="parking" checked>
+							<label for="filterMotel">Мотель</label></li>
+							<li><input id="filterApartments" type="checkbox" name="wifi" checked>
+							<label for="filterApartments">Апартаменты</label></li>
 						</ul>
 				</fieldset>
 				<fieldset class="price">
 					<legend>Стоимость в сутки (р):</legend>
-						<div class="price_range">
-							<label for="min_p">От</label>
-							<input id="min_p" type="number" name="min_price" value="0">
-							<label for="max_p">До</label>
-							<input id="max_p" type="number" name="max_price" value="3000">
+						<div class="priceRange">
+							<label for="minP">От</label>
+							<input id="minP" type="number" name="minPrice" value="0">
+							<label for="maxP">До</label>
+							<input id="maxP" type="number" name="maxPrice" value="3000">
 						</div>
 						<input type="range" min="0" max="4000" value="3000" name="range">
-					<button class="show_hotels" type="submit">Показать</button>
+					<button class="showHotels" type="submit">Показать</button>
 				</fieldset>
 			</form>
 		</section>
-		<section class="searching_result">
-			<h2 class="visually_hidden">Результат поиска и сортировка</h2>
+		<section class="searchingResult">
+			<h2 class="visuallyHidden">Результат поиска и сортировка</h2>
 			<div>
 				<h3>Найдено:</h3>
 			</div>
@@ -71,13 +71,13 @@
 				<button>По рейтингу</button>
 			</div>
 		</section>
-		<section class="found_hotels">
-			<h2 class="visually_hidden">Результаты поиска</h2>
-			<section class="first_hotel">
-				<div class="hotel_image">
+		<section class="foundHotels">
+			<h2 class="visuallyHidden">Результаты поиска</h2>
+			<section class="firstHotel">
+				<div class="hotelImage">
 					<img src="img/amara.jpg" alt="Amara Resort & Spa" width="135" height="90">
 				</div>
-				<div class="hotel_discription">
+				<div class="hotelDiscription">
 					<h3>Amara Resort & Spa</h3>
 					<p>Гостиница</p>
 					<p>От 4000 р.</p>
@@ -88,11 +88,11 @@
 					<p>Рейтинг: 8,5</p>
 				</div>
 			</section>
-			<div class="second_hotel">
-				<div class="hotel_image">
+			<div class="secondHotel">
+				<div class="hotelImage">
 					<img src="img/desert.jpg" alt="Desert Quail Inn" width="135" height="90">
 				</div>
-				<div class="hotel_discription">
+				<div class="hotelDiscription">
 					<h3>Desert Quail Inn</h3>
 					<p>Мотель</p>
 					<p>От 3000 р.</p>
@@ -103,11 +103,11 @@
 					<p>Рейтинг: 8,9</p>
 				</div>
 			</div>
-			<div class="third_hotel">
-				<div class="hotel_image">
+			<div class="thirdHotel">
+				<div class="hotelImage">
 					<img src="img/diablo.jpg" alt="Villas at Poco Diablo" width="135" height="90">
 				</div>	
-				<div class="hotel_discription">
+				<div class="hotelDiscription">
 					<h3>Villas at Poco Diablo</h3>
 					<p>Апартаменты</p>
 					<p>От 2000 р.</p>
@@ -121,18 +121,18 @@
 	</main>
 	<footer>
 		<section class="contacts">
-			<h2 class="visually_hidden">Контакты</h2> 
+			<h2 class="visuallyHidden">Контакты</h2> 
 			<a href="#">#VISITSEDONA</a>
 	    	<span>ТЕЛ: +7 (495) 666-02-66</span>
 		</section>
 		<section class="social">
-			<h2 class="visually_hidden">Социальные сети</h2> 
+			<h2 class="visuallyHidden">Социальные сети</h2> 
 			<a href="#"><img class="twitter" src="img/twitter.png" width="17" height="15" alt = "Twitter"></a>
 			<a href="#"><img class="facebook" src="img/facebook.png" width="12" height="22" alt = "Facebook"></a>
 			<a href="#"><img class="youtube" src="img/youtube.png" width="20" height="16" alt = "Youtube"></a>
 		</section>
 		<section class="academy">
-			<h2 class="visually_hidden">HTML Academy logo</h2> 
+			<h2 class="visuallyHidden">HTML Academy logo</h2> 
 			<span> website by </span>
 			<a href="#"><img src="img/academy.png" width="115" height="41" alt = "HTML Academy"></a>
 		</section>
