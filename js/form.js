@@ -10,14 +10,14 @@ var childrenPlus = document.querySelector(".childrenPlus");
 var childrenMinus = document.querySelector(".childrenMinus");
 
 
-button.addEventListener("click", function (evt) { /* добавляем возможность показать/скрыть форму */
+button.addEventListener("click", function (evt) { // добавляем возможность показать/скрыть форму 
 	evt.preventDefault();
 	form.classList.toggle("formShow");
 	arrival.focus();
 	form.classList.remove("formError");
 });
 
-form.addEventListener("submit", function (evt) { /* запрящаем отправлять форму, если есть пустые поля*/
+form.addEventListener("submit", function (evt) { // запрящаем отправлять форму, если есть пустые поля
 	if (!arrival.value || !departure.value || adults.value == 0 && children.value == 0) {
 		evt.preventDefault();
 		form.classList.remove("formError");
@@ -26,7 +26,7 @@ form.addEventListener("submit", function (evt) { /* запрящаем отпр�
 	}
 });
 
-window.addEventListener("keydown", function (evt) { /*добавляем закрытие фомры через Esc*/
+window.addEventListener("keydown", function (evt) { //добавляем закрытие фомры через Esc
 	if (evt.keyCode === 27) {
 		evt.preventDefault();
 		if (form.classList.contains("formShow")) {
@@ -38,7 +38,7 @@ window.addEventListener("keydown", function (evt) { /*добавляем зак�
 });
 
 
-adultsPlus.addEventListener("click", function (evt) { /*оживляем кнопки плюс/минус*/
+adultsPlus.addEventListener("click", function (evt) { //оживляем кнопки плюс/минус
 	evt.preventDefault();
 	adults.value = ++adults.value;
 });
