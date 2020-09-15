@@ -14,7 +14,7 @@ button.addEventListener("click", function (evt) { /* добавляем возм
 	evt.preventDefault();
 	form.classList.toggle("formShow");
 	arrival.focus();
-	form.classList.remove("formError")
+	form.classList.remove("formError");
 });
 
 form.addEventListener("submit", function (evt) { /* запрящаем отправлять форму, если есть пустые поля*/
@@ -26,13 +26,13 @@ form.addEventListener("submit", function (evt) { /* запрящаем отпр�
 	}
 });
 
-window.addEventListener("keydown", function (evt) { /*добавляем закрытие форы через Esc*/
+window.addEventListener("keydown", function (evt) { /*добавляем закрытие фомры через Esc*/
 	if (evt.keyCode === 27) {
 		evt.preventDefault();
 		if (form.classList.contains("formShow")) {
 			evt.preventDefault();
-			form.classList.remove("formShow")
-			form.classList.remove("formError")
+			form.classList.remove("formShow");
+			form.classList.remove("formError");
 		}
 	}
 });
